@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local IDE configuration
+.vscode/
+.idea/
+
+# Model weights (downloaded automatically on first run)
+*.pt
+*.pth
+*.onnx
+
+# Ultralytics output
+runs/
+
+# Local secrets and environment files
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Operating system and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
